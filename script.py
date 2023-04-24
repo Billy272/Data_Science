@@ -20,6 +20,6 @@ import matplotlib.pyplot as plt
 plt.plot(random_walk)
 plt.xlabel("Steps")
 plt.ylabel("Dice")
-plt.title("Random Dice throw on a Lift")
+plt.title("Random Dice throw on Lift")
 
 plt.show()
