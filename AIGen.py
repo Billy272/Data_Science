@@ -61,3 +61,4 @@ inverted_img = normalized_img.copy()
 inverted_img = 1.0 - inverted_img
 # Show the inverted image
 plt.imshow(inverted_img, cmap='gray', vmin=0, vmax=1)
+plt.show()
