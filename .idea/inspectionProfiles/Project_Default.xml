@@ -6,6 +6,7 @@
         <list>
           <option value="W292" />
           <option value="E402" />
+          <option value="E265" />
         </list>
       </option>
     </inspection_tool>
@@ -17,6 +18,9 @@
           <option value="script.range" />
           <option value="script.max" />
           <option value="script.matplotlib" />
+          <option value="AIGen.matplotlib" />
+          <option value="AIGen.print" />
+          <option value="AIGen.cv2" />
         </list>
       </option>
     </inspection_tool>
