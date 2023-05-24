@@ -55,3 +55,9 @@ plt.imshow(img)
 # Show the normalized image
 plt.subplot(1, 2, 2)
 plt.imshow(normalized_img, cmap='gray', vmin=0.5, vmax=1)
+#Create a duplicate of the normalized image
+inverted_img = normalized_img.copy()
+# Invert the pixel values
+inverted_img = 1.0 - inverted_img
+# Show the inverted image
+plt.imshow(inverted_img, cmap='gray', vmin=0, vmax=1)
