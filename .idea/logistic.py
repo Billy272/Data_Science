@@ -5,7 +5,7 @@ FN = conf_matrix[1, 0]
 FP = conf_matrix[0, 1]
 
 # Calculate and print the accuracy
-accuracy = TN + TP / (TN + FN + FP + TP)
+accuracy = (TN + TP) / (TN + FN + FP + TP)
 print("accuracy: ", accuracy)
 
 # Calculate and print the sensitivity
