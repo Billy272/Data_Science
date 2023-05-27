@@ -16,5 +16,9 @@ plt.show()
 
 #Generate function that creates a default DataFrame using if statements with def being better_add_column(values, df=pandas.DataFrame()):
 def better_add_column(values, df=pandas.DataFrame()):
+    """
+
+    :type values: object
+    """
     if df is None:
         df = pandas.DataFrame()
