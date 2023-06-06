@@ -23,6 +23,7 @@
           <option value="AIGen.print" />
           <option value="AIGen.cv2" />
           <option value="main.pandas" />
+          <option value="Clusters.samples" />
         </list>
       </option>
     </inspection_tool>
