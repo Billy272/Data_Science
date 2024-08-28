@@ -1,5 +1,5 @@
 import numpy as np
-import matplotllib.pyplot as plt
+import matplotlib.pyplot as plt
 import scipy.stats
 from scipy.stats import multivariate_normal
 from mpl_toolkits.mplot3d import Axcs3D
