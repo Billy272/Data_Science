@@ -18,5 +18,5 @@ fig, ax = plt.subplots(subplot_kw={'axes':ax})
 ax.plot(x, y, z, vmin=z.min()*2, cmap='gray')
 
 ax.set(xticklabels=[], yticklabels=[], zticklabels=[])
-
+plt.legend(loc='lower')
 plt.show()
